@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="css/style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Indice de Masa Corporal</title>
+</head>
+
+<body>
+    <header>
+        <h1>Calculadora de Índice de Masa Corporal</h1>
+        <p>Calcula tu masa corporal.</p>
+    </header>
+    <main class="container">
+        <section class="formulario">
+            <form id="forma">
+                <label for="peso">Peso:</label>
+                <input type="number" step="any" id="peso" placeholder="Ej: 80" required>
+                <label for="altura">Altura:</label>
+                <input type="number" step="any" id="altura" placeholder="Ej: 1.50" required>
+                <input type="submit" value="Calcular">
+            </form>
+        </section>
+        <section class="resultado">
+            <h2>Resultado</h2>
+            <p id="resumen"></p>
+        </section>
+    </main>
+    <footer>
+        <p>Gael Alejandro Garcia Morales </p>
+        <p>24001941</p>
+        <p>LEVN401</p>
+    </footer>
+    <script src="js/miScript.js"></script>
+</body>
+
+</html>
